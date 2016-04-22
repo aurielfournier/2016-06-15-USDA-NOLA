@@ -1,24 +1,24 @@
 ---
 layout: workshop
 root: .
-venue: FIXME (brief name of host site)
-address: FIXME (street address of home location)
-country: FIXME (country (hyphenated if need be, like 'United-Kingdom')
-language: FIXME (language code like 'en' or 'fr')
-latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
-humandate: FIXME (use the format 'Feb 17-18, 2020' (without the quotes)
-humantime: FIXME (use the format '9:00 am - 4:30 pm' (without the quotes)
-startdate: FIXME (use YYYY-MM-DD format like 2015-01-01)
-enddate: FIXME (use YYYY-MM-DD format like 2015-01-02)
-instructor: (list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"])
-helper: (list of names like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"])
-contact: FIXME (contact email address for workshop organizer)
-etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
-eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
-day1_am: "Data organization in spreadsheets and OpenRefine"
-day1_pm: "Introduction to R"
-day2_am: "Data analysis and visualization in R"
-day2_pm: "SQL for data management"
+venue: USDA New Orleans, LA
+# address: # FIXME (street address of home location)
+country: us
+language: en
+# latlng: (fractional latitude and longitude like 41.7901128,-87.6007318)
+humandate: June 15-16 2016
+humantime: 9:00 am - 4:30 pm  # human-readable time (e.g., "9:00 am - 4:30 pm")
+startdate: 2016-06-15
+enddate: 2016-06-16
+instructor: ["Auriel Fournier", "Hani Nakhoul"]
+#helper: 
+contact: OP.Perera@ars.usda.gov
+# etherpad: # FIXME (insert the URL for your Etherpad if you're using one)
+# eventbrite: # FIXME (delete this if not used, otherwise uncomment and provide 1234567890AB key for Eventbrite registration)
+# day1_am: "Data organization in spreadsheets and OpenRefine"
+# day1_pm: "Introduction to R"
+# day2_am: "Data analysis and visualization in R"
+# day2_pm: "SQL for data management"
 ---
 <!--
   HEADER
@@ -137,34 +137,35 @@ Participants should bring their laptops and plan to participate actively. By the
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2>Preliminary Schedule</h2>
-
-<!-- DO NOT EDIT SURVEY LINKS -->
-<p><em>Surveys</em></p>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href='{{ site.dc_pre_survey }}'>Pre-workshop Survey</a></p>
-<p><a href='{{ site.dc_post_survey }}'>Post-workshop Survey</a></p>
-
-
+<h2 id="schedule">Schedule</h2>
 
 <div class="row">
   <div class="col-md-6">
-
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day1_am}}</td> </tr>
-       <tr> <td>Afternoon</td>  <td>{{page.day1_pm}}</td> </tr>
+      <tr> <td>Arrival</td>  <td><a href='{{ site.swc_pre_survey }}{{ site.github.project_title }}'>Pre-workshop Survey</a></td> </tr>
+      <tr> <td>09:00</td>  <td>Data organization in spreadsheets and Open refine</td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>R basics</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
- 
- 
+  </div>
+  <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>  <td>{{page.day2_am}}</td> </tr>
-      <tr> <td>Afternoon</td>  <td>{{page.day2_pm}}</td> </tr>
+      <tr> <td>09:00</td>  <td>Data analysis and visualization in R</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td>Data management with SQL</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>Dismissal</td>  <td><a href='{{ site.swc_post_survey }}{{ site.github.project_title }}'>Post-workshop Survey</a></td> </tr>
     </table>
- </div>
+  </div>
 </div>
-
+<hr/>
 <!--
   ETHERPAD
 
