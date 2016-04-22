@@ -1,8 +1,8 @@
 #--------------------------------------------------------------------------------
 # Values for this workshop - EDIT THIS SECTION.
 #--------------------------------------------------------------------------------
-workshop_repo   : "http://github.com/datacarpentry/workshop-template"
-workshop_site   : "http://datacarpentry.github.io/workshop-template"
+workshop_repo   : "https://github.com/aurielfournier/2016-06-15-USDA-NOLA"
+workshop_site   : "http://aurielfournier.github.io/2016-06-15-USDA-NOLA/"
 #--------------------------------------------------------------------------------
 # Standard Data Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------
